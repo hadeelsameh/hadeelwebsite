@@ -79,10 +79,10 @@
             <p>The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm that can be used to solve both classification and regression problems. It’s easy to implement and understand, but has a major drawback of becoming significantly slows as the size of that data in use grows.KNN works by finding the distances between a query and all the examples in the data, selecting the specified number examples (K) closest to the query, then votes for the most frequent label (in the case of classification) or averages the labels (in the case of regression).</p>
             
             <p><h5>First: pre-processing :</h5> We started by importing data and checking  that there is no missing values,then we make 0 stands  for  benign and 1 stands for malignant tumors.</p>
-            <img src="images/knn1.png" alt="" class="img-fluid mb-4">
+            <img src="images/knn1.PNG" alt="" class="img-fluid mb-4">
 
             <p><h5> After that we made feature slection to choose most effective features  using library ”FSelector” that rank features by some criteria and select the ones that are above a defined threshold and then, search for optimum feature subsets from a space of feature subsets.</h5></p>
-            <img src="images/knn2.png" alt="" class="img-fluid mb-4">
+            <img src="images/knn2.PNG" alt="" class="img-fluid mb-4">
             <p><h5>
               
               We used “ggplot2” to  plot of feature selection result as shown :    
@@ -91,11 +91,11 @@
             <img src="images/knn3.png" alt="" class="img-fluid mb-4">
 
             <p><h5>The last thing we did in pre-processing is scaling data(normalising data): </h5> </p>
-            <img src="images/knn4.png" alt="" class="img-fluid mb-4">
+            <img src="images/knn4.PNG" alt="" class="img-fluid mb-4">
 
 
             <p><h5> Second:appling knn and k-folded cv:   </h5>  we used for loop to randomly split the data  k times to use all data for training and all data for testing .  </p>
-            <img src="images/knn5.png" alt="" class="img-fluid mb-4">
+            <img src="images/knn5.PNG" alt="" class="img-fluid mb-4">
 
             <h1 class="mb-3 mt-5">2.Naive Bayes:</h1>
 
@@ -113,7 +113,7 @@
 
             </p>
 
-            <img src="images/nb1.png" alt="" class="img-fluid mb-4">
+            <img src="images/nb1.PNG" alt="" class="img-fluid mb-4">
 
             <h5>
                 After that we made feature slection to choose most effective features  using library ”Bor uta” that do feature selection following these steps :
@@ -128,7 +128,7 @@
               <h5> •	Remove all shadow, artificially added attributes.</h5>
               <h5> •	Repeat the procedure until the importance is assigned for all the attributes, or the algorithm has reached the previously set limit of the random forest runs.</h5>
                 
-            <img src="images/nb2.png" alt="" class="img-fluid mb-4">
+            <img src="images/nb2.PNG" alt="" class="img-fluid mb-4">
 
 
             <h5> We used “ggplot2” to  plot of feature selection result as shown :
@@ -136,7 +136,7 @@
 
             <img src="images/nb3.png" alt="" class="img-fluid mb-4">
             <p><h5>Second:appling naïve bayes and k-folded cv: </h5>we used library “e1071” for naïve bayes .Also, we used for loop to randomly split the data  k times to use all data for training and all data for testing </p>
-            <img src="images/nb4.png" alt="   " class="img-fluid mb-4"  >
+            <img src="images/nb4.PNG" alt="   " class="img-fluid mb-4"  >
             <h1>
                 3.Decision Tree :
             </h1>
@@ -145,10 +145,10 @@
 
             </p>
             <p><h4> First: pre-processing : </h4>  We started by importing data and checking  that there is no missing values,then we make 0 stands  for  benign and 1 stands for malignant tumors.  </p>
-            <img src="images/dt1.png" alt="" class="img-fluid mb-4">
+            <img src="images/dt1.PNG" alt="" class="img-fluid mb-4">
 
             <h5>After that we made feature slection to choose most effective features  using library ”Bor uta” (explained above).</h5>
-            <img src="images/dt2.png" alt="" class="img-fluid mb-4">
+            <img src="images/dt2.PNG" alt="" class="img-fluid mb-4">
 
             <h5>
                 We used “ggplot2” to  plot of 
@@ -159,7 +159,7 @@
             <p><h5>
                 Second:appling Decision Tree and k-folded cv:</h5> we used library “rpart” for Decision Tree .Also, we used for loop to randomly split the data  k times to use all data for training and all data for testing.
             </p>
-            <img src="images/dt4.png" alt="" class="img-fluid mb-4">
+            <img src="images/dt4.PNG" alt="" class="img-fluid mb-4">
             <h1>
                 Results :
             </h1>
